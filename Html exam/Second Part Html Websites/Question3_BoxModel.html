@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Box Model</title>
+  <meta charset="utf-8">
+	<style>
+		/* Creating styles */
+body {
+  margin: 0 auto;
+}
+
+#wrapper * {
+  padding: 20px;
+  font-size: 60px;
+  border: 30px solid rgba(0,0,0,0.5);
+}
+
+/* Creating specific boxes */
+
+#wrapper header, #wrapper footer {
+  background-color: blue;
+  color: white;
+  height: 115px;
+}
+
+#wrapper main {
+  background-color: yellow;
+  height: 115px;
+}
+
+
+	</style>
+</head>
+<body>
+<div id="wrapper">
+  <header>Header</header>
+  <main>Main content</main>
+  <footer>Footer</footer>
+</div>
+</body>
+</html>
